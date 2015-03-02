@@ -1,0 +1,53 @@
+body .header {
+  background-color: #ACA196 !important; }
+  body .header h1 {
+    font-weight: bold; }
+body .content .card-num {
+  padding-top: 10px; }
+  body .content .card-num .card {
+    background: url(../img/bg-card.jpg);
+    width: 350px;
+    height: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+    body .content .card-num .card div h1 {
+      text-align: left;
+      padding-top: 20px;
+      padding-left: 20px;
+      color: #FFF;
+      text-shadow: none; }
+    body .content .card-num .card div .ui-grid-d .chip {
+      width: 50px;
+      padding-right: 20px; }
+    body .content .card-num .card .ui-input-text {
+      background-color: transparent;
+      margin: 10px; }
+      body .content .card-num .card .ui-input-text input {
+        font-family: "Courier";
+        font-size: 12pt;
+        text-shadow: none;
+        color: #FFF;
+        color: #FFF; }
+        body .content .card-num .card .ui-input-text input::-webkit-input-placeholder {
+          color: #FFF; }
+        body .content .card-num .card .ui-input-text input:-moz-placeholder {
+          color: #FFF; }
+        body .content .card-num .card .ui-input-text input:-ms-input-placeholder {
+          color: #FFF; }
+  body .content .card-num .ui-grid-a {
+    padding-left: 20px;
+    font-family: "Courier";
+    color: #FFF;
+    text-shadow: none; }
+  body .content .card-num .valid {
+    padding-top: 10px;
+    text-align: center; }
+    body .content .card-num .valid #is-valid {
+      display: none; }
+body div .footer {
+  background-color: #ACA196 !important; }
+
+/*# sourceMappingURL=style.css.map */

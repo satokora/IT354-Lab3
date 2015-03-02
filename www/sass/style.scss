@@ -1,0 +1,83 @@
+$card-font-color: #FFF;
+$base-color: #ACA196;
+// Sass
+body{
+
+  .header{
+    background-color: $base-color !important;
+    h1{
+      font-weight: bold;
+    } // end h1
+  } // end .header
+  .content{ 
+    .card-num{
+      padding-top: 10px;
+
+      .card{
+        background: url(../img/bg-card.jpg);
+        width: 350px;
+        height: 200px;;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        div{
+          h1{
+              text-align: left;
+              padding-top: 20px;
+              padding-left: 20px;
+              color: #FFF;
+              text-shadow: none;
+            } // end h1
+         } // end div
+        div{
+        .ui-grid-d{
+            .chip{
+              width: 50px;
+              padding-right: 20px;
+            }
+          } // end .ui-grid-d
+        } // end div
+
+        .ui-input-text{
+          background-color: transparent;
+          margin: 10px;
+
+        input{
+          font-family: "Courier";
+          font-size: 12pt;
+          text-shadow: none;
+          color: $card-font-color;
+          color: $card-font-color;
+          &::-webkit-input-placeholder { color: $card-font-color; }
+          &:-moz-placeholder { color: $card-font-color; }
+          &:-ms-input-placeholder { color: $card-font-color; }
+          } // end input
+        } // end .ui-input-text
+      } // end .card
+
+      .ui-grid-a{
+        padding-left: 20px;
+        font-family: "Courier";
+        color: $card-font-color;
+        text-shadow: none;
+      } // end .ui-grid-a
+
+      .valid{
+        padding-top: 10px;
+        text-align: center;
+        #is-valid{
+          display: none;
+        }
+      }
+
+    } // end .card-num
+
+  } // end .content
+  div .footer{
+    background-color: $base-color !important;
+  } // end .footer
+}
+
