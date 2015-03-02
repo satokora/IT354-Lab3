@@ -4,7 +4,7 @@
 ////////////////////////////
 
 $(document).ready(function() {
-  $("#valid").click(function() {
+  $("#valid-button").click(function() {
     var numOfCredit = $("#credit-no").val();
     numOfCredit = numOfCredit.replace(/\D/g, "");
 

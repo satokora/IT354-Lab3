@@ -2,12 +2,15 @@ body .header {
   background-color: #ACA196 !important; }
   body .header h1 {
     font-weight: bold; }
+  body .header .banner {
+    display: block;
+    width: 100%; }
 body .content .card-num {
   padding-top: 10px; }
   body .content .card-num .card {
     background: url(../img/bg-card.jpg);
-    width: 350px;
-    height: 200px;
+    width: 330px;
+    height: 180px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -48,6 +51,10 @@ body .content .card-num {
     body .content .card-num .valid #is-valid {
       display: none; }
 body div .footer {
-  background-color: #ACA196 !important; }
+  background: url(../img/leather_ft.png);
+  display: block;
+  width: 100%;
+  font-family: "Century Gothic";
+  color: #482628; }
 
 /*# sourceMappingURL=style.css.map */
